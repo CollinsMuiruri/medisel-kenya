@@ -1,0 +1,9 @@
+.contact-forms{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.call-whatsapp,.location,.email-us,.social-media{
+    width: 50%;
+}
