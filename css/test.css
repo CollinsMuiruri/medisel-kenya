@@ -89,9 +89,9 @@
 
 .all-items {
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
     justify-content: space-evenly;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     /* column-gap: 30px;   */
 }
 
@@ -99,6 +99,8 @@
     display: flex;
     align-items: center;
     padding-bottom: 10px;
+    flex: 1;
+    flex-basis: 50%;
 }
 
 .single-item img {
