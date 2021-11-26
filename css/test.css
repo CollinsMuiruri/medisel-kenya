@@ -142,4 +142,14 @@
         .single-item p {
             font-size: 15px;
         }
+        .contact-forms {
+            display: block;
+            /* flex-direction: column; */
+            width: 100vw;
+        }
+        .ex-form-1 .text-box {
+            padding: 2.5rem 1.5rem 1.5rem 1.75rem;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+        }
     }
