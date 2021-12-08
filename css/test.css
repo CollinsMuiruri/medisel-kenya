@@ -103,6 +103,9 @@
     }
     
     @media (max-width: 768px) {
+        li {
+            list-style: none;
+        }
         #other-equipment {
             margin-left: 0px;
         }
@@ -141,6 +144,9 @@
         }
         .single-item p {
             font-size: 15px;
+        }
+        .single-item p li {
+            list-style: none;
         }
         .contact-forms {
             display: block;
